@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8 />
+  <title>Kentucky Estimated Annual Paraquat Use, 2013 and 2017</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #d3d3d3;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      color: #3d3d3d;
+    }
+
+    section {
+      width: 80%;
+      margin: 10px auto;
+    }
+
+    h1 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 500;
+      font-size: 2.5em;
+      /* The em unit. 2.5x the current size */
+      letter-spacing: .02em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      color: gray;
+      font-size: 1.25em;
+      letter-spacing: .04em;
+    }
+
+    p {
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+
+    a {
+      color: #005daa;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 10px 0
+    }
+
+    #map {
+      width: 100%;
+      margin: 0px auto;
+
+    }
+
+    .max-image-width {
+      width: 100%;
+    }
+
+
+    .linkbox {
+      margin: 3px 0 20px 0;
+      display: block;
+      font-weight: 300;
+    }
+
+    hr {
+      border: 0px;
+      border-bottom: 1px solid #3d3d3d;
+      padding-top: 20px;
+    }
+
+    /* Use float property to make two-column layout. */
+
+    .first-column {
+      float: left;
+      width: 48%;
+      padding-right: 20px;
+    }
+
+    .column {
+      float: left;
+      width: 48%;
+    }
+
+    /* Clear floats after the columns */
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* When browser is 800px wide or less */
+
+    @media screen and (max-width: 800px) {
+
+      .first-column,
+      .column {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <!-- Add map to top of page and make it stretch to fill browser window. -->
+    <img class="max-image-width" src="paraquat_ky_1200px.png" alt="US Wind Turbine Aggregate">
+
+  </div>
+  <p><a href="paraquat_ky_8000px.png">Link to High Resolution Map of Annual KY Paraquat Use</a></p>
+
+</div>
+<p><a href="2013_paraquat_ky_use.geojson">Link to 2013 KY EPest Paraquat Data </a></p>
+<p><a href="2017_paraquat_ky_use.geojson">Link to 2017 KY EPest Paraquat Data </a></p>
+   
+
+  
+
+    <h1>Kentucky Estimated Annual Paraquat Use, 2013 & 2017</h1>
+    <h2>Authored by: Sarah Caywood</h2>
+
+    <div class="row">
+
+     
+
+      </div>
+    </div>
+
+    <h3>Map Details</h3>
+
+
+    <p> 
+        The creation of the above map was inspired by the importance of monitoring high volume herbicide and pesticide use in agriculture. 
+        One of many toxic chemicals, Paraquat, is widely used as both an herbicide and pesticide, and is classified for "resticed use" by licensed applicators by the EPA. 
+        When paraquat is ingested, human can experience toxic chemical reactions, including in the digestive orgrans, liver, kidneys, and lungs. 
+    </p> 
+    <p>
+        The state of Kentucky was chosen for this map because more than 50% of Kentucky's total land acreage is used for agriculture, and therefore, awareness of toxic chemical use is vital for public health. 
+        Due to data availbility limitations, the total annual Paraquat (EPEst-High, kg) estimations for 2013 and 2017 were selected to gain insight to how this usage changed over a period of 4 years. 
+        In 2013, the total estimated use of Paraquat in Kentucky agriculture was 122,702 (kg), while in 2017, the total estimated use of Paraquat was 67,567 (kg). This is a 55% reduction in use of this chemical in Kentucky agriculture.  
+    </p>
+    
+    <p>
+        For more information about the creation of this map, <a href="readme_09.md"target="blank" > click this link</a></p>
+    </p>
+    <div class="row">
+
+     
+
+    </div>
+
+
+    <h4>Tools Used in this Project</h4>
+        
+    <p>Created on QGIS 3.24.1 and Windows 10, June 2022.
+     <p>Estimated annual agricultural paraquat use data aquired from <a href= "https://www.sciencebase.gov/catalog/item/5e95c12282ce172707f2524e" target="blank"> USGS ScienceBase-Catalog</a></p>
+     <p> Spatial Data aquired from <a href= "https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html" target="blank" > US Census Bureau TIGER Products</a></p>
+     <p>CRS: NAD 83 (EPSG: 3089)</p>
+
+
+
+    <p>
+      University of Kentucky New Maps Plus, Spring 2022.
+    </p>
+    <hr>
+    <ul>
+      <li>See my projects on GitHub: <a href="https://github.com/sarahcaywood">Sarah Caywood</a></li>
+			<li>Find me on Facebook: <a href="https://www.facebook.com/sarah.caywood.9">Sarah's Facebook Page</a></li>
+			<li>Connect with me on LinkedIn: <a href='https://linkedin.com/in/sarah-caywood-127029134'>Sarah's LinkedIn</a>.</li>
+    </ul>
+  </section>
+
+</body>
+
+</html>
