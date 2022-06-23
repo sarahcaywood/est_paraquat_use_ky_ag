@@ -1,0 +1,13 @@
+ ```js
+{
+// Required properties
+"title": "Kentucky Estimated Annual Paraquat Use, 2013 and 2017", // Give your project a good title
+"info": "Paraquat use by agricultural acreage by county", // A short blurb about your project
+"coordinates": [37.68797709121662, -85.24297150652696], // IMPORTANT: the lat, long centerpoint of your project
+
+// Optional properties
+// If you don't want to use these, use the value null without quotes.
+"author": "Sarah Caywood", // What handle do you want to use?
+"link": "https://github.com/sarahcaywood/est_paraquat_use_ky_ag" // What's the link to the project or your social media?
+}
+```
