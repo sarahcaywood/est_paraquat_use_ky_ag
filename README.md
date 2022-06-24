@@ -14,7 +14,9 @@
 
 >* CRS: NAD 83 (EPSG: 3089)</p>
 
+### Map Link
 
+You can view the <a href="https://sarahcaywood.github.io/est_paraquat_use_ky_ag/" target="_blank">final map with this link</a>
 
 ### Project Description
 
