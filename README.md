@@ -8,7 +8,7 @@
 
  >* Spatial Data aquired from <a href= "https://www.census.gov/geographies/mapping-files/<p> time-series/geo/carto-boundary-file.html" target="blank" > US Census Bureau TIGER Products</a></p>
 
- >* Crop Acerage data acquired from <a href= "https://www.fsa.usda.gov/news-room/efoia/electronic-reading-room/frequently-requested-information/crop-acreage-data/index" target="blank"> USDA Crop Acerage Data</a></p>
+ >* Crop Acreage data acquired from <a href= "https://www.fsa.usda.gov/news-room/efoia/electronic-reading-room/frequently-requested-information/crop-acreage-data/index" target="blank"> USDA Crop Acreage Data</a></p>
 
  >* Created on QGIS 3.24.1 and Windows 10, June 2022.
 
